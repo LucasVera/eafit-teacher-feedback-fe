@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 3px solid var(--primary-dark);
+  border-radius: var(--border-radius);
+  /* background-color: var(--primary); */
+}
+
+.spinner {
+  margin: 0 10px;
+}
+
+.latestRecommendationContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+}

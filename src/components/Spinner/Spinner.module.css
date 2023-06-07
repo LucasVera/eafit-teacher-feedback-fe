@@ -1,0 +1,38 @@
+/* css of a spinner to use as a loading indicator */
+.spinner {
+  animation: spin 1s linear infinite;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid var(--primary-light);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.spinnerXs {
+  height: 5px;
+  width: 5px;
+}
+
+.spinnerSm {
+  height: 20px;
+  width: 20px;
+}
+
+.spinnerMd {
+  height: 40px;
+  width: 40px;
+}
+
+.spinnerLg {
+  height: 60px;
+  width: 60px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

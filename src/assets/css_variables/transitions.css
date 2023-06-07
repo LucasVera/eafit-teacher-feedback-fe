@@ -1,0 +1,6 @@
+:root {
+  --transition-fast: 0.2s;
+  --transition-normal: 0.35s;
+  --transition-slow: 0.5s;
+  --transition-xslow: 0.75s;
+}

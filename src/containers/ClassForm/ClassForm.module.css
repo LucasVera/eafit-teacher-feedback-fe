@@ -1,0 +1,67 @@
+.container {
+  width: 100vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--primary);
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.inputWithLabel {
+  margin: 0px;
+  padding: 0 8px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 62px;
+  margin-left: 5px;
+  padding: 8px 20px
+}
+
+.stopClassBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnIcon {
+  padding-left: 15px;
+}
+
+.studentsEducationLevelContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 10px;
+}
+
+.studentsEducationLevelLabel {
+  padding-bottom: 12px;
+}
+
+.studentsEducationLevelDropdown {
+  padding-bottom: 0px;
+}
+
+.educationLevelDisplayText {
+  margin-bottom: 1px;
+}
+
+.educationLevelIcon {
+  padding-right: 10px;
+}

@@ -1,0 +1,62 @@
+.container {
+  width: 7vw;
+}
+
+.dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--border-radius);
+  padding: 12px;
+}
+
+.active {
+  background-color: var(--tertiary-dark);
+  border: 1px solid var(--primary);
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+.active:hover {
+  background-color: var(--tertiary);
+}
+
+.disabled {
+  background-color: var(--gray-dark);
+  border: 1px solid var(--primary);
+  cursor: not-allowed;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body {
+  display: block;
+  position: absolute;
+  margin-top: 5px;
+  min-width: 250px;
+  text-align: center;
+}
+.bodyRight {
+  left: 100%;
+  top: 0;
+}
+.bodyLeft {
+  right: 100%;
+  top: 0;
+}
+.bodyBottom {
+  top: auto;
+  bottom: 100%;
+}
+.bodyTop {
+  bottom: auto;
+  margin-top: 15px;
+  /* top: -100%; */
+}
+
+.caretIcon {
+  padding-left: 8px;
+}

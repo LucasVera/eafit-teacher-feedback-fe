@@ -1,0 +1,13 @@
+.container {
+  border-bottom: 1px solid var(--dark);
+  background-color: var(--light);
+  color: var(--primary-dark);
+  padding: 25px;
+
+}
+
+.container:hover {
+  background-color: var(--tertiary);
+  color: var(--secondary-darkened);
+  transition: var(--transition-normal);
+}

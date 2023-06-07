@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.currentClassContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 3px solid var(--primary);
+  border-radius: var(--border-radius);
+  /* margin: 10px 0; */
+}
+
+.currentClassTextContainer {
+  margin: 20px;
+}
+
+.currentClassTextLabel {}
+
+.currentClassTextValue {
+  font-weight: var(--font-weight-bold);
+}
+
+.activeClassContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+
+.latestScreenshotFacesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+.errorText {
+  color: var(--secondary-light);
+}
+
+.instructionsText {
+  color: var(--light);
+  align-self: center;
+}
+
+.notFoundText {
+  color: var(--light);
+}

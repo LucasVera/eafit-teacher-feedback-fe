@@ -1,0 +1,83 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+}
+
+.boxContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  flex-direction: column;
+  padding: 25px;
+  height: 50vh;
+  margin: 30px;
+  background-color: var(--light);
+  color: var(--primary-dark);
+  border-radius: var(--border-radius);
+}
+
+.title {
+  font-size: var(--font-size-xl);
+  margin: 30px 0px;
+  align-self: center;
+}
+
+.text {
+  /* font-size: var(--font-size-xlarge); */
+  margin: 5px 0px;
+}
+
+
+.signInButton {
+  margin: 50px 0px;
+
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.validationErrorText {
+  color: var(--error);
+  font-weight: var(--font-weight-bold);
+}
+
+@media screen and (min-width: 350px) {
+  .boxContainer {
+    width: 100vw;
+    height: 90vh;
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .boxContainer {
+    width: 85vw;
+    height: 80vh;
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .boxContainer {
+    width: 70vw;
+    height: 65vh;
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .boxContainer {
+    width: 60vw;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .boxContainer {
+    width: 40vw;
+  }
+}
